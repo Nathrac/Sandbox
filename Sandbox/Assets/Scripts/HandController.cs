@@ -7,12 +7,9 @@ using System;
 
 public class HandController : MonoBehaviour
 {
-    [SerializeField]
-    GameObject baseControllerObject;
-    [SerializeField]
-    GameObject teleportGameObject;
-    [SerializeField]
-    InputActionReference teleportActivationReference;
+    [SerializeField] GameObject baseControllerObject;
+    [SerializeField] GameObject teleportGameObject;
+    [SerializeField] InputActionReference teleportActivationReference;
 
     public UnityEvent onTeleportActivate;
     public UnityEvent onTeleportCancel;
