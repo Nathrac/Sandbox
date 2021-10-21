@@ -6,6 +6,7 @@ public class LeverWall : MonoBehaviour
 {
     HingeJoint leverHinge;
     [SerializeField] GameObject wall;
+    [SerializeField] GameObject car;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class LeverWall : MonoBehaviour
         if (leverHinge.angle == leverHinge.limits.min)
         {
             wall.SetActive(false);
+            car.SetActive(true);
 
         }
     }
