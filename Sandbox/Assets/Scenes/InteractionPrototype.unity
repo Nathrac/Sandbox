@@ -287,7 +287,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 8
+  MaxDistance: 10
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -944,8 +944,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.176568, y: 1.5402707, z: 1}
+  m_Center: {x: 0.009686225, y: -0.00019350508, z: 0}
 --- !u!23 &420296962
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1024,7 +1024,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &420296966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2548,7 +2548,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 8
+  MaxDistance: 10
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -2987,7 +2987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rendererData: {fileID: 11400000, guid: 4a8e21d5c33334b11b34a596161b9360, type: 2}
   alpha: 1
-  duration: 0.5
+  duration: 0.25
 --- !u!4 &1408484458
 Transform:
   m_ObjectHideFlags: 0
@@ -4045,8 +4045,8 @@ GameObject:
   - component: {fileID: 1719556050}
   - component: {fileID: 1719556049}
   - component: {fileID: 1719556053}
-  - component: {fileID: 1719556054}
   - component: {fileID: 1719556055}
+  - component: {fileID: 1719556054}
   m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
@@ -4203,22 +4203,19 @@ MonoBehaviour:
   m_TeleportationProvider: {fileID: 0}
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
---- !u!54 &1719556054
-Rigidbody:
+--- !u!65 &1719556054
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719556048}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Size: {x: 9.926861, y: 0, z: 10.000001}
+  m_Center: {x: -0.036583256, y: 0.02, z: 0}
 --- !u!114 &1719556055
 MonoBehaviour:
   m_ObjectHideFlags: 0
