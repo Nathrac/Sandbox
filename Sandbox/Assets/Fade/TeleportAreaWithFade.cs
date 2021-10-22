@@ -5,7 +5,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class TeleportAreaWithFade : TeleportationArea
 {
-   
+    //All code created by tutorial by VR Adam
+
     public ScreenFade screenFade = null;
     protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
@@ -40,7 +41,7 @@ public class TeleportAreaWithFade : TeleportationArea
     }
     private void OnValidate()
     {
-        //  get the screen fader like this
+        // Get the screen fader like this
         if (!screenFade)
             screenFade = FindObjectOfType<ScreenFade>();
     }

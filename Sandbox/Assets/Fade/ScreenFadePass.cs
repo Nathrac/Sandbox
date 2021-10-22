@@ -3,6 +3,8 @@ using UnityEngine.Rendering.Universal;
 
 public class ScreenFadePass : ScriptableRenderPass
 {
+    //All code created by tutorial by VR Adam
+
     private FadeSettings settings = null;
 
     public ScreenFadePass(FadeSettings newSettings)

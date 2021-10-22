@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 
 public class HandAnimation : MonoBehaviour
 {
+    //Tutorial followed to set up hand animations based on grip and trigger button distance travelled
     [SerializeField] InputActionReference controllerGrip;
     [SerializeField] InputActionReference controllerTrigger;
 

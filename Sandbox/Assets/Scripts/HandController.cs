@@ -7,6 +7,7 @@ using System;
 
 public class HandController : MonoBehaviour
 {
+    //Turorial followed so  that an event controls when teleport ray activates if thumbstick is moved forward
     [SerializeField] GameObject baseControllerObject;
     [SerializeField] GameObject teleportGameObject;
     [SerializeField] InputActionReference teleportActivationReference;

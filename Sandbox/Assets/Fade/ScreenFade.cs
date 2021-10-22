@@ -5,6 +5,9 @@ using Pixelplacement;
 
 public class ScreenFade : MonoBehaviour
 {
+    //All code created by tutorial by VR Adam
+    //using Pixelplacement is "Surge" asset downloaded to use tween function 
+
     // References
     public ForwardRendererData rendererData = null;
 
